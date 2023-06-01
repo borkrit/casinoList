@@ -71,7 +71,7 @@ letter-spacing: 0px;
     column-gap: 15px;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 500px) {
     .item{
         flex-direction: column;
         gap: 15px;
@@ -145,7 +145,7 @@ letter-spacing: 0px;
     background: #3082D4;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 500px) {
     .item__link{
         margin-inline: auto;
     }
@@ -205,6 +205,14 @@ color: #429BF4;
     border-radius: 4px;
     z-index: 2;
 }
+@media screen and (max-width: 500px) {
+    .pop-up{
+        left:-31px;
+    }
+}
+
+
+
 .pop-up::before{
     content: '';
     position: absolute;
