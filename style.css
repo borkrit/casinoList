@@ -240,13 +240,15 @@ color: #429BF4;
 .pop-up__code{
     border: 3px dotted #5e6166;
     color: #5e6166;
-    border-radius: 10px;
+    border-radius: 8px;
     text-align: center;
-    padding-block: 15px;
+    padding-block: 12px;
     text-transform: uppercase;
     cursor: pointer;
     margin-block: 20px 15px;
     position: relative;
+    font-size: 12px;
+    font-weight: bold;
 
 }
 .pop-up__title{
