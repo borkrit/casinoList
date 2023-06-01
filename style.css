@@ -315,6 +315,7 @@ color: #429BF4;
     width: 100%;
     grid-template-columns: 110px 140px;
     color: #5e6166;
+    font-size: 14px;
 }
 .pop-up__details>:not(:last-child){
     color: #878ca4;
